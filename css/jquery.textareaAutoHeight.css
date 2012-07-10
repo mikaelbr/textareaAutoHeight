@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+textarea.textareaAutoHeight-message-box {
+	height:75px;
+	resize: none;
+	display: block;
+	width: 100%;
+}
+
+
+div.textareaAutoHeight-message-box {
+
+	min-height: 40px;
+	max-height: 140px;
+
+	overflow-y: auto;
+
+}
+
+.textareaAutoHeight-message-box {
+	color:#666;
+	font-size: 12px;
+
+	margin:5px 0px 10px 0px;
+	padding: 3px;
+
+	border:#999 1px solid;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+
+	box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+}
+
+span.textareaAutoHeight-counter {
+	float: right;
+	font-style:italic;
+	color: #ccc;
+}
+
+
+.textareaAutoHeight-message-box:focus {
+	color:#000;
+	outline:none;
+	border:#35a5e5 1px solid;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+	transition: box-shadow 0.25s ease-in-out;
+	-webkit-transition: box-shadow 0.25s ease-in-out;
+	-moz-transition: box-shadow 0.25s ease-in-out;
+}
+
+
+
+

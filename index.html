@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="/css/jquery.textareaAutoHeight.css">
+</head>
+<body>
+
+	<form action="">
+		<fieldset>
+			<legend>Two input fields in the same form</legend>
+			<label for="message">Input text
+				<textarea name="message1" id="message"></textarea>
+			</label>
+
+			<label for="message2">Input text
+				<textarea name="message2" id="message2"></textarea>
+			</label>
+
+			<p><input type="submit"></p>
+		</fieldset>
+	</form>
+
+	<form action="">
+		<fieldset>
+			<legend>Input field in a seperate form</legend>
+			<label for="message3">Input text
+				<textarea name="message3" id="message3"></textarea>
+			</label>
+			<p><input type="submit"></p>
+		</fieldset>
+	</form>
+
+	<script src="/vendor/jquery.js"></script>
+	<script src="/js/jquery.textareaAutoHeight.js"></script>
+	<script>
+
+		$("textarea").textareaAutoHeight();
+
+		$("form").on("submit", function (e) {
+			e.preventDefault();
+			var v = $(this).serialize();
+			console.log(v);
+		});
+		
+
+	</script>
+</body>
+</html>

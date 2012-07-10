@@ -1,0 +1,11 @@
+/**
+ *  This jQuery Plugin, textareaAutoHeight, will allow textareas to automaticly 
+ *  justify it's height when texts is written. If a new line occurs, or the text
+ *  starts at the next line, the textarea will expand in height.
+ *  
+ *  Documentation: https://github.com/mikaelbr/textareaAutoHeight#readme
+ *  URL: https://github.com/mikaelbr/textareaAutoHeight
+ *  Author: Mikael Brevik <mikaelbre@gmail.com>
+ *  Version: @VERSION
+ *  Date: 
+ **/
