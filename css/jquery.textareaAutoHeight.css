@@ -1,25 +1,11 @@
 @charset "utf-8";
 
-textarea.textareaAutoHeight-message-box {
-	height:75px;
-	resize: none;
-	display: block;
-	width: 100%;
-}
-
-
-div.textareaAutoHeight-message-box {
-
-	min-height: 40px;
-	max-height: 140px;
-
-	overflow-y: auto;
-
-}
-
 .textareaAutoHeight-message-box {
 	color:#666;
 	font-size: 12px;
+
+	resize: none;
+	display: block;
 
 	margin:5px 0px 10px 0px;
 	padding: 3px;
@@ -38,7 +24,6 @@ span.textareaAutoHeight-counter {
 	font-style:italic;
 	color: #ccc;
 }
-
 
 .textareaAutoHeight-message-box:focus {
 	color:#000;
