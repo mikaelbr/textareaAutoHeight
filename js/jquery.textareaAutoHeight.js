@@ -183,7 +183,7 @@
     };
 
     $.fn.textareaAutoHeight.defaults = {
-        useCounter: true,
+        useCounter: false,
         minLines: 2, // default number of lines to show
         maxLines: 5, // max number of lines to show before scroll
         hideSubmitButton: true,
