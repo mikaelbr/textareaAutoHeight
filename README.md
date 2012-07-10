@@ -12,7 +12,7 @@ $("textarea").textareaAutoHeight();
 ## Settings
 ```javascript
 {
-    useCounter: true, // Add a span with a counter of how meny characters there are in the text area.
+    useCounter: false, // Add a span with a counter of how meny characters there are in the text area.
     minLines: 2, // default number of lines to show
     maxLines: 5, // max number of lines to show before scroll
     hideSubmitButton: true, // Should hide submit button?
